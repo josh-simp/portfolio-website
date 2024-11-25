@@ -2,7 +2,7 @@ import logo from "../assets/Preview.png";
 import {FaLinkedin} from "react-icons/fa";
 import {FaGithub} from "react-icons/fa";
 import {FaFigma} from "react-icons/fa";
-import {FaInstagram} from "react-icons/fa";
+import { FaFilePdf } from "react-icons/fa";
 
 const NavBar = () => {
   return (
@@ -14,7 +14,7 @@ const NavBar = () => {
             <a href="https://www.linkedin.com/in/joshua-i-simpson" target="_blank"><FaLinkedin/></a>
             <a href="https://github.com/josh-simp/portfolio-website" target="_blank"><FaGithub/></a>
             <a href="https://www.figma.com/design/jXkHwjVAKE8SLAjdmdiPdQ/Portfolio?node-id=0-1&t=dJgDK5hqpeyV6Sh8-1" target="_blank"><FaFigma/></a>
-            <a href="https://www.instagram.com/josh_simpson81/profilecard/?igsh=MXA2bXZ0NW1hbmRsbA==" target="_blank"><FaInstagram/></a>
+            <a href="/Resume (14).pdf" target="_blank"><FaFilePdf/></a>
         </div>
     </nav>
   ) 
